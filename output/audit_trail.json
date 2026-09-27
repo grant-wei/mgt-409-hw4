@@ -1,0 +1,722 @@
+[
+  {
+    "time": "2026-09-27T01:26:36Z",
+    "tool_name": "PydanticAI shop_agent",
+    "args": {
+      "tool_calls": [
+        {
+          "tool_name": "search_products",
+          "args": {
+            "search_term": "hoodie",
+            "max_results": 8
+          },
+          "result": {
+            "count": 8,
+            "products": [
+              {
+                "product_id": "basic-hoodie-big-yale",
+                "name": "Basic Hoodie Big Yale",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 2,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 25,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "brooks-brothers-double-knit-full-zip-hoodie-yale",
+                "name": "Brooks Brothers Double Knit Full Zip Hoodie Yale",
+                "price": 88.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 12,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "champion-reverse-weave-hoodie-1",
+                "name": "Champion Reverse Weave Hoodie 1",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 25,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 15,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "crew-left-chest-hoodie",
+                "name": "Crew Left Chest Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 5,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "district-vit-hoodie-vintage-bulldog",
+                "name": "District Vit Hoodie Vintage Bulldog",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 0,
+                    "in_stock": false
+                  }
+                ]
+              },
+              {
+                "product_id": "district-vit-hoodie-vintage-sailor-bulldog",
+                "name": "District Vit Hoodie Vintage Sailor Bulldog",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 25,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 2,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 25,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "fencing-left-chest-hoodie",
+                "name": "Fencing Left Chest Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 2,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 0,
+                    "in_stock": false
+                  }
+                ]
+              },
+              {
+                "product_id": "ice-hockey-left-chest-hoodie",
+                "name": "Ice Hockey Left Chest Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 25,
+                    "in_stock": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tool_name": "final_result",
+          "args": {},
+          "result": {
+            "value": "Final result processed."
+          }
+        }
+      ],
+      "request_limit": 8,
+      "tool_call_limit": 8,
+      "timeout_seconds": 75
+    },
+    "result": {
+      "status": "completed",
+      "structured_reply_generated": true,
+      "product_ids": [
+        "basic-hoodie-big-yale",
+        "brooks-brothers-double-knit-full-zip-hoodie-yale",
+        "champion-reverse-weave-hoodie-1",
+        "crew-left-chest-hoodie",
+        "district-vit-hoodie-vintage-bulldog",
+        "district-vit-hoodie-vintage-sailor-bulldog",
+        "fencing-left-chest-hoodie",
+        "ice-hockey-left-chest-hoodie"
+      ],
+      "comparison_product_ids": []
+    },
+    "stop_reason": "The agent returned validated structured output."
+  },
+  {
+    "time": "2026-09-27T01:26:45Z",
+    "tool_name": "PydanticAI shop_agent",
+    "args": {
+      "tool_calls": [
+        {
+          "tool_name": "search_products",
+          "args": {
+            "search_term": "Basic Hoodie Big Yale",
+            "max_results": 8
+          },
+          "result": {
+            "count": 8,
+            "products": [
+              {
+                "product_id": "basic-hoodie-big-yale",
+                "name": "Basic Hoodie Big Yale",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 2,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 25,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "big-yale-tri-blend-t-shirt",
+                "name": "Big Yale Tri Blend T Shirt",
+                "price": 32.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 15,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "brooks-brothers-double-knit-full-zip-hoodie-yale",
+                "name": "Brooks Brothers Double Knit Full Zip Hoodie Yale",
+                "price": 88.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 15,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 12,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "yale-aunt-hoodie",
+                "name": "Yale Aunt Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 2,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "yale-dad-hoodie",
+                "name": "Yale Dad Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 15,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "yale-grandma-hoodie",
+                "name": "Yale Grandma Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 12,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 5,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "yale-grandpa-hoodie",
+                "name": "Yale Grandpa Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 0,
+                    "in_stock": false
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 25,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 20,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 2,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 5,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 12,
+                    "in_stock": true
+                  }
+                ]
+              },
+              {
+                "product_id": "yale-mom-hoodie",
+                "name": "Yale Mom Hoodie",
+                "price": 68.0,
+                "sizes": [
+                  {
+                    "size": "L",
+                    "quantity": 25,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "M",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "S",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XL",
+                    "quantity": 8,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XS",
+                    "quantity": 25,
+                    "in_stock": true
+                  },
+                  {
+                    "size": "XXL",
+                    "quantity": 2,
+                    "in_stock": true
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tool_name": "get_product_details",
+          "args": {
+            "product_id": "basic-hoodie-big-yale"
+          },
+          "result": {
+            "product": {
+              "product_id": "basic-hoodie-big-yale",
+              "name": "Basic Hoodie Big Yale",
+              "price": 68.0,
+              "sizes": [
+                {
+                  "size": "L",
+                  "quantity": 8,
+                  "in_stock": true
+                },
+                {
+                  "size": "M",
+                  "quantity": 5,
+                  "in_stock": true
+                },
+                {
+                  "size": "S",
+                  "quantity": 5,
+                  "in_stock": true
+                },
+                {
+                  "size": "XL",
+                  "quantity": 2,
+                  "in_stock": true
+                },
+                {
+                  "size": "XS",
+                  "quantity": 15,
+                  "in_stock": true
+                },
+                {
+                  "size": "XXL",
+                  "quantity": 25,
+                  "in_stock": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "tool_name": "final_result",
+          "args": {},
+          "result": {
+            "value": "Final result processed."
+          }
+        }
+      ],
+      "request_limit": 8,
+      "tool_call_limit": 8,
+      "timeout_seconds": 75
+    },
+    "result": {
+      "status": "completed",
+      "structured_reply_generated": true,
+      "product_ids": [],
+      "comparison_product_ids": []
+    },
+    "stop_reason": "The agent returned validated structured output."
+  }
+]

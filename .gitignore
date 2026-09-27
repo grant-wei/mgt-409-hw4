@@ -1,0 +1,25 @@
+# Credentials and local configuration. Keep .env.example shareable.
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Course data and generated product images are local-only.
+/data/
+/data.zip
+**/campus_customs.db
+/frontend/public/products/
+/frontend/src/data/products.json
+
+# Build and runtime artifacts.
+/frontend/node_modules/
+/frontend/dist/
+/backend/.venv/
+**/__pycache__/
+**/*.py[cod]
+*.log
+*.tmp
+/output/*.lock
+
