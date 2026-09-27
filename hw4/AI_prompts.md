@@ -78,3 +78,9 @@ problem 12 make output/audit_trail.json append only for agent runs. record the t
 ## Problem 13: Push to GitHub and submit the URL
 
 problem 13 get hw4 ready for a public GitHub repo and Canvas URL submission. finish README.md, requirements.txt, .env.example and .gitignore, then check the expected file tree. keep the real .env, campus_customs.db and product images out of git. scan the files that would be public for secrets and other release issues. show me the exact repo destination, branch, visibility, files to push and URL to submit on Canvas. dont push or submit yet, i want to review the preview first. just problem 13 prep, print the checks and anything still missing
+
+### Problem 13 followup
+
+The first prompt stopped before the push, and the later check found the folder issue.
+
+problem 13 followup the public repo at https://github.com/grant-wei/mgt-409-hw4 has the project files at the root, but the assignment wants them inside hw4/. log this exact prompt under problem 13 before working, with one sentence saying the first prompt stopped before the push and the later check found the folder issue. move the project into hw4/, update README.md so the data setup and run commands work from the new layout, and keep the local data and config working without tracking the real .env, database or product images. just fix problem 13, run the build and relevant checks, push to main, verify the public file tree, and print the commit, check results, anything you couldnt verify and the URL to submit on Canvas. dont submit on Canvas
